@@ -26,11 +26,11 @@ export default function AllPosts() {
   console.log(allPostsData);
 
   return (
-    <div className="bg-green-100 min-h-screen p-12">
-      <div className="container mx-auto">
-        <h2 className="text-5xl flex justify-center cursive">Blog Posts</h2>
-        <h3 className="text-lg text-gray-600 flex justify-center mb-12">
-          Welcome to my blog posts page!
+    <div className="min-h-screen p-12 border-solid border-4 border-light-green-500">
+      <div className="container mx-auto border-4 border-light-green-500">
+        <h2 className="text-5xl flex justify-center subpixel-antialiased font-medium cursive text-green-600 font-serif shadow-sm">Passion Led Us Here</h2>
+        <h3 className="text-lg text-gray-600 flex hover:underline justify-center mb-12 font-serif p-4 shadow-sm">
+          This is the sign you've been looking for!
         </h3>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -38,7 +38,7 @@ export default function AllPosts() {
             allPostsData.map((post, index) => (
               <Link to={"/" + post.slug.current} key={post.slug.current}>
                 <span
-                  className="block h-64 relative rounded shadow leading-snug bg-white border-l-8 border-green-400"
+                  className="block h-64 relative rounded shadow leading-snug bg-white border-l-8 border-indigo-400 bg-opacity-50"
                   key={index}
                 >
                   <img
