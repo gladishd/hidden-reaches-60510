@@ -42,7 +42,7 @@ export default function OnePost() {
         <div className="relative">
           <div className="absolute h-full w-full flex items-center justify-center p-8">
             {/* Title Section */}
-            <div className="bg-indigo-600 bg-opacity-50 rounded p-12">
+            <div className="bg-indigo-300 bg-opacity-50 rounded p-12">
               <h2 className="cursive text-3xl lg:text-6xl mb-4">
                 {postData.title}
               </h2>
