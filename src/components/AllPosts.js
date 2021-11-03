@@ -28,9 +28,9 @@ export default function AllPosts() {
   return (
     <div className="min-h-screen p-12 border-solid border-4 border-light-green-500">
       <div className="container mx-auto border-4 border-light-green-500">
-        <h2 className="text-5xl flex justify-center subpixel-antialiased font-medium cursive text-green-600 font-serif shadow-sm">Passion Led Us Here</h2>
+        <h2 className="text-5xl flex justify-center subpixel-antialiased font-medium cursive text-green-600 font-serif shadow-sm">Bloggable today, unbloggable tomorrow.</h2>
         <h3 className="text-lg text-gray-600 flex hover:underline justify-center mb-12 font-serif p-4 shadow-sm">
-          This is the sign you've been looking for!
+          It's far better to be an actual citizen than to be a huge lover.  Before the cure comes the rumor.
         </h3>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
